@@ -1,4 +1,4 @@
-*
+/*
  * === Places class style ===
  */
 
@@ -20,8 +20,7 @@
 }
 
 /* Name and price header */
-.places .name_and_price {
-  align-items: center;
+.places .title_box {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -36,9 +35,9 @@
   color: #ff5a5f;
   display: flex;
   font-size: 30px;
-  height: 60px;
+  height: 70px;
   justify-content: center;
-  min-width: 60px;
+  min-width: 70px;
 }
 
 /* Guests, rooms, and bathrooms information */
@@ -68,13 +67,7 @@
 /* Top margin of amenities and reviews classes */
 .places .amenities,
 .places .reviews {
-  margin-top: 40px;
-}
-
-/* Row format for amenities list */
-.places .amenities li {
-  display: flex;
-  flex-direction: row;
+  margin-top: 20px;
 }
 
 /* Individual amenity style */
@@ -107,7 +100,7 @@
 
 /* Align header 1 as screen gets smaller */
 @media only screen and (max-width: 1000px) {
-  .places h1 {
+   .places h1 {
     width: 95%;
   }
 }
@@ -140,4 +133,3 @@
   margin-bottom: 6px;
   margin-top: 20px;
 }
-

@@ -47,7 +47,7 @@
 /* Locations and amenities hover opacity */
 .filters .locations:hover,
 .filters .amenities:hover {
-  background-color: #fafafa;
+    background-color: #fafafa;
 }
 
 /* Locations and amenities popover menu */
@@ -56,6 +56,8 @@
   border: 1px solid #ddd;
   border-radius: 4px;
   display: none;
+  max-height: 300px;
+  overflow-y: scroll;
   position: absolute;
   width: 100%;
 }
@@ -68,12 +70,12 @@
 
 /* Locations list style */
 .filters .locations ul {
-  padding: 6px 0 6px 0;
+  margin: 12px auto 12px 30px;
 }
 
 /* Locations list element margin */
 .filters .locations li {
-  margin: 0 auto 6px 3em;
+  margin-bottom: 6px;
 }
 
 /* Amenities list element margin */
@@ -81,17 +83,17 @@
   margin: 12px auto 12px 30px;
 }
 
-/*
- * --- Filters header style ---
- */
+  /*
+   * --- Filters header style ---
+   */
 
 /* Header box sizing */
 .filters h2,
 .filters h3,
 .filters h4 {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 /* Header 2 style */
